@@ -1,4 +1,4 @@
-module github.com/quicklyon/kingpin
+module github.com/quicklyon/kingpin/v2
 
 go 1.17
 
