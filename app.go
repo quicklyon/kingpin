@@ -564,7 +564,7 @@ func (a *Application) applyActions(context *ParseContext) error {
 
 // Errorf prints an error message to w in the format "<appname>: error: <message>".
 func (a *Application) Errorf(format string, args ...interface{}) {
-	fmt.Fprintf(a.errorWriter, a.Name+": error: "+format+"\n", args...)
+	fmt.Fprintf(a.errorWriter, " "+format+"\n", args...)
 }
 
 // Fatalf writes a formatted error to w then terminates with exit status 1.
