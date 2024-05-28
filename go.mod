@@ -1,4 +1,4 @@
-module github.com/alecthomas/kingpin/v2
+module github.com/quicklyon/kingpin
 
 go 1.17
 
